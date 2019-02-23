@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		856FD8AF2221411500A6C294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FD8AE2221411500A6C294 /* AppDelegate.swift */; };
-		856FD8B12221411500A6C294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FD8B02221411500A6C294 /* ViewController.swift */; };
 		856FD8B42221411500A6C294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8B22221411500A6C294 /* Main.storyboard */; };
 		856FD8B62221411500A6C294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8B52221411500A6C294 /* Assets.xcassets */; };
 		856FD8B92221411500A6C294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8B72221411500A6C294 /* LaunchScreen.storyboard */; };
@@ -18,12 +17,13 @@
 		856FD8CA2221421A00A6C294 /* stock-footage-lotus-root-silk-sugar-a-traditional-chinese-candy-food-in-the-history-now-few-people-will-do-this.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8C42221421A00A6C294 /* stock-footage-lotus-root-silk-sugar-a-traditional-chinese-candy-food-in-the-history-now-few-people-will-do-this.mp4 */; };
 		856FD8CB2221421A00A6C294 /* stock-footage-scooping-ice-cream-with-ice-cream-scoop-from-the-tub.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8C52221421A00A6C294 /* stock-footage-scooping-ice-cream-with-ice-cream-scoop-from-the-tub.mp4 */; };
 		856FD8CC2221421A00A6C294 /* stock-footage-old-cinematic-tape.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8C62221421A00A6C294 /* stock-footage-old-cinematic-tape.mp4 */; };
+		856FD8CE22214C0600A6C294 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FD8CD22214C0600A6C294 /* VideoViewController.swift */; };
+		85D80AD9222181E100AB43DE /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D80AD8222181E100AB43DE /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		856FD8AB2221411500A6C294 /* VideoLoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoLoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		856FD8AE2221411500A6C294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		856FD8B02221411500A6C294 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		856FD8B32221411500A6C294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		856FD8B52221411500A6C294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		856FD8B82221411500A6C294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +34,8 @@
 		856FD8C42221421A00A6C294 /* stock-footage-lotus-root-silk-sugar-a-traditional-chinese-candy-food-in-the-history-now-few-people-will-do-this.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "stock-footage-lotus-root-silk-sugar-a-traditional-chinese-candy-food-in-the-history-now-few-people-will-do-this.mp4"; sourceTree = "<group>"; };
 		856FD8C52221421A00A6C294 /* stock-footage-scooping-ice-cream-with-ice-cream-scoop-from-the-tub.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "stock-footage-scooping-ice-cream-with-ice-cream-scoop-from-the-tub.mp4"; sourceTree = "<group>"; };
 		856FD8C62221421A00A6C294 /* stock-footage-old-cinematic-tape.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "stock-footage-old-cinematic-tape.mp4"; sourceTree = "<group>"; };
+		856FD8CD22214C0600A6C294 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		85D80AD8222181E100AB43DE /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,8 @@
 			children = (
 				856FD8C02221420900A6C294 /* Videos */,
 				856FD8AE2221411500A6C294 /* AppDelegate.swift */,
-				856FD8B02221411500A6C294 /* ViewController.swift */,
+				856FD8CD22214C0600A6C294 /* VideoViewController.swift */,
+				85D80AD8222181E100AB43DE /* PageViewController.swift */,
 				856FD8B22221411500A6C294 /* Main.storyboard */,
 				856FD8B52221411500A6C294 /* Assets.xcassets */,
 				856FD8B72221411500A6C294 /* LaunchScreen.storyboard */,
@@ -167,8 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				856FD8B12221411500A6C294 /* ViewController.swift in Sources */,
 				856FD8AF2221411500A6C294 /* AppDelegate.swift in Sources */,
+				856FD8CE22214C0600A6C294 /* VideoViewController.swift in Sources */,
+				85D80AD9222181E100AB43DE /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
