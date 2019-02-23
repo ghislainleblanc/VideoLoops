@@ -12,6 +12,12 @@
 		856FD8B42221411500A6C294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8B22221411500A6C294 /* Main.storyboard */; };
 		856FD8B62221411500A6C294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8B52221411500A6C294 /* Assets.xcassets */; };
 		856FD8B92221411500A6C294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8B72221411500A6C294 /* LaunchScreen.storyboard */; };
+		856FD8C72221421A00A6C294 /* stock-footage-abstract-forms.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8C12221421A00A6C294 /* stock-footage-abstract-forms.mp4 */; };
+		856FD8C82221421A00A6C294 /* stock-footage-flowing-red-particles-red-liquid-creating-smoke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8C22221421A00A6C294 /* stock-footage-flowing-red-particles-red-liquid-creating-smoke.mp4 */; };
+		856FD8C92221421A00A6C294 /* stock-footage-textiles-fabric-backgrounds.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8C32221421A00A6C294 /* stock-footage-textiles-fabric-backgrounds.mp4 */; };
+		856FD8CA2221421A00A6C294 /* stock-footage-lotus-root-silk-sugar-a-traditional-chinese-candy-food-in-the-history-now-few-people-will-do-this.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8C42221421A00A6C294 /* stock-footage-lotus-root-silk-sugar-a-traditional-chinese-candy-food-in-the-history-now-few-people-will-do-this.mp4 */; };
+		856FD8CB2221421A00A6C294 /* stock-footage-scooping-ice-cream-with-ice-cream-scoop-from-the-tub.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8C52221421A00A6C294 /* stock-footage-scooping-ice-cream-with-ice-cream-scoop-from-the-tub.mp4 */; };
+		856FD8CC2221421A00A6C294 /* stock-footage-old-cinematic-tape.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8C62221421A00A6C294 /* stock-footage-old-cinematic-tape.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		856FD8B52221411500A6C294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		856FD8B82221411500A6C294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		856FD8BA2221411500A6C294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856FD8C12221421A00A6C294 /* stock-footage-abstract-forms.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "stock-footage-abstract-forms.mp4"; sourceTree = "<group>"; };
+		856FD8C22221421A00A6C294 /* stock-footage-flowing-red-particles-red-liquid-creating-smoke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "stock-footage-flowing-red-particles-red-liquid-creating-smoke.mp4"; sourceTree = "<group>"; };
+		856FD8C32221421A00A6C294 /* stock-footage-textiles-fabric-backgrounds.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "stock-footage-textiles-fabric-backgrounds.mp4"; sourceTree = "<group>"; };
+		856FD8C42221421A00A6C294 /* stock-footage-lotus-root-silk-sugar-a-traditional-chinese-candy-food-in-the-history-now-few-people-will-do-this.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "stock-footage-lotus-root-silk-sugar-a-traditional-chinese-candy-food-in-the-history-now-few-people-will-do-this.mp4"; sourceTree = "<group>"; };
+		856FD8C52221421A00A6C294 /* stock-footage-scooping-ice-cream-with-ice-cream-scoop-from-the-tub.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "stock-footage-scooping-ice-cream-with-ice-cream-scoop-from-the-tub.mp4"; sourceTree = "<group>"; };
+		856FD8C62221421A00A6C294 /* stock-footage-old-cinematic-tape.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "stock-footage-old-cinematic-tape.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		856FD8AD2221411500A6C294 /* VideoLoops */ = {
 			isa = PBXGroup;
 			children = (
+				856FD8C02221420900A6C294 /* Videos */,
 				856FD8AE2221411500A6C294 /* AppDelegate.swift */,
 				856FD8B02221411500A6C294 /* ViewController.swift */,
 				856FD8B22221411500A6C294 /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				856FD8BA2221411500A6C294 /* Info.plist */,
 			);
 			path = VideoLoops;
+			sourceTree = "<group>";
+		};
+		856FD8C02221420900A6C294 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				856FD8C12221421A00A6C294 /* stock-footage-abstract-forms.mp4 */,
+				856FD8C22221421A00A6C294 /* stock-footage-flowing-red-particles-red-liquid-creating-smoke.mp4 */,
+				856FD8C42221421A00A6C294 /* stock-footage-lotus-root-silk-sugar-a-traditional-chinese-candy-food-in-the-history-now-few-people-will-do-this.mp4 */,
+				856FD8C62221421A00A6C294 /* stock-footage-old-cinematic-tape.mp4 */,
+				856FD8C52221421A00A6C294 /* stock-footage-scooping-ice-cream-with-ice-cream-scoop-from-the-tub.mp4 */,
+				856FD8C32221421A00A6C294 /* stock-footage-textiles-fabric-backgrounds.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +148,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				856FD8C72221421A00A6C294 /* stock-footage-abstract-forms.mp4 in Resources */,
+				856FD8CB2221421A00A6C294 /* stock-footage-scooping-ice-cream-with-ice-cream-scoop-from-the-tub.mp4 in Resources */,
 				856FD8B92221411500A6C294 /* LaunchScreen.storyboard in Resources */,
+				856FD8CC2221421A00A6C294 /* stock-footage-old-cinematic-tape.mp4 in Resources */,
+				856FD8CA2221421A00A6C294 /* stock-footage-lotus-root-silk-sugar-a-traditional-chinese-candy-food-in-the-history-now-few-people-will-do-this.mp4 in Resources */,
+				856FD8C82221421A00A6C294 /* stock-footage-flowing-red-particles-red-liquid-creating-smoke.mp4 in Resources */,
 				856FD8B62221411500A6C294 /* Assets.xcassets in Resources */,
 				856FD8B42221411500A6C294 /* Main.storyboard in Resources */,
+				856FD8C92221421A00A6C294 /* stock-footage-textiles-fabric-backgrounds.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
