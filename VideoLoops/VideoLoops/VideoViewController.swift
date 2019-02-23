@@ -15,6 +15,7 @@ class VideoViewControllerViewModel {
     private var playerItem: AVPlayerItem!
     private var playerLooper: AVPlayerLooper!
     private var filename: String
+    private var playIntroState = true
 
     var viewLayer: AVPlayerLayer {
         let path = Bundle.main.path(forResource: filename, ofType: "mp4")
@@ -32,18 +33,27 @@ class VideoViewControllerViewModel {
         self.filename = filename
     }
 
-    func playIntro() {
+    func play() {
+        if playIntroState == true {
+            playIntro()
+            playIntroState = false
+        } else {
+            playFull()
+            playIntroState = true
+        }
+    }
+
+    private func playIntro() {
         player.removeAllItems()
         let range = CMTimeRange(start: CMTime.zero, end: CMTimeMake(value: 6, timescale: 1))
         playerLooper = AVPlayerLooper(player: player, templateItem: playerItem, timeRange: range)
         player.play()
     }
 
-    func playFull() {
+    private func playFull() {
         player.removeAllItems()
         let range = CMTimeRange(start: CMTime.zero, end: playerItem!.asset.duration)
         playerLooper = AVPlayerLooper(player: player, templateItem: playerItem, timeRange: range)
-
         player.play()
     }
 }
@@ -56,11 +66,11 @@ class VideoViewController: UIViewController {
             layer.frame = view.layer.frame
             view.layer.insertSublayer(layer, at: 1)
 
-            viewModel?.playIntro()
+            viewModel?.play()
         }
     }
 
     @IBAction private func didTap() {
-        viewModel?.playFull()
+        viewModel?.play()
     }
 }
