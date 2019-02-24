@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851387E62222EBA800EC52BF /* VideoViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851387E52222EBA800EC52BF /* VideoViewControllerViewModel.swift */; };
 		856FD8AF2221411500A6C294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FD8AE2221411500A6C294 /* AppDelegate.swift */; };
 		856FD8B42221411500A6C294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8B22221411500A6C294 /* Main.storyboard */; };
 		856FD8B62221411500A6C294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856FD8B52221411500A6C294 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		851387E52222EBA800EC52BF /* VideoViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewControllerViewModel.swift; sourceTree = "<group>"; };
 		856FD8AB2221411500A6C294 /* VideoLoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoLoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		856FD8AE2221411500A6C294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		856FD8B32221411500A6C294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				856FD8C02221420900A6C294 /* Videos */,
 				856FD8AE2221411500A6C294 /* AppDelegate.swift */,
 				856FD8CD22214C0600A6C294 /* VideoViewController.swift */,
+				851387E52222EBA800EC52BF /* VideoViewControllerViewModel.swift */,
 				85D80AD8222181E100AB43DE /* PageViewController.swift */,
 				856FD8B22221411500A6C294 /* Main.storyboard */,
 				856FD8B52221411500A6C294 /* Assets.xcassets */,
@@ -173,6 +176,7 @@
 				856FD8AF2221411500A6C294 /* AppDelegate.swift in Sources */,
 				856FD8CE22214C0600A6C294 /* VideoViewController.swift in Sources */,
 				85D80AD9222181E100AB43DE /* PageViewController.swift in Sources */,
+				851387E62222EBA800EC52BF /* VideoViewControllerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
